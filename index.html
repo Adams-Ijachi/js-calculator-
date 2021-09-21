@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>znone.com</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- <input type="text" value="1" /> -->
+
+      <div class="input-con">
+          <h3 id="blink_me" >0</h3>
+          <h2 id="display" style="height: 15px;"></h2>
+
+          <span id="answer"> </span>
+      </div>
+
+      
+      <div class="Row-one">
+        <button onclick="clearAll()" class="znone"> CE</button>
+        <button onclick="showBlinker()" class="znone">ON</button>
+        <button onclick="removeLastChar()" class="znone">c</button>
+        <button onclick="addValueToDisplay(this)" class="znone">*</button>
+      </div>
+      <div class="Row-two">
+        <button onclick="addValueToDisplay(this)"  class="znone">1</button>
+        <button onclick="addValueToDisplay(this)" class="znone">2</button>
+        <button onclick="addValueToDisplay(this)" class="znone">3</button>
+        <button onclick="addValueToDisplay(this)"class="znone">-</button>
+      </div>
+      <div class="Row-three">
+        <button onclick="addValueToDisplay(this)" class="znone">4</button>
+        <button onclick="addValueToDisplay(this)"class="znone">5</button>
+        <button onclick="addValueToDisplay(this)" class="znone">6</button>
+        <button onclick="addValueToDisplay(this)" class="znone">+</button>
+      </div>
+      <div class="Row-four" >
+        <button onclick="addValueToDisplay(this)" class="znone">7</button>
+        <button onclick="addValueToDisplay(this)" class="znone">8</button>
+        <button onclick="addValueToDisplay(this)" class="znone">9</button>
+        <button onclick="addValueToDisplay(this)" class="znone">/</button>
+      </div>
+      <div class="Row-five">
+        <button onclick="addValueToDisplay(this)" class="znone">.</button>
+        <button onclick="addValueToDisplay(this)" class="znone">0</button>
+        <button onclick="addValueToDisplay(this)" class="znone">00</button>
+        <button onclick="perFormOperation(this)" class="znone">=</button>
+      </div>
+    </div>
+  </body>
+
+  <script >
+    console.log( (parseFloat('-3')) * parseFloat('-3'))
+  </script>
+  <script src="app.js"></script>
+</html>
